@@ -24,7 +24,7 @@ Each country features unique vehicle colors, different types of traffic signs, a
 
 How might we develop and integrate an advanced object detection model that can accurately identify Singapore's local vehicles, traffic signs, and traffic-related objects such as traffic cones, into existing car systems, enabling any vehicle to be equipped with reliable self-driving features.
 
-[View Google Slides Presentation](https://docs.google.com/presentation/d/1ysBxlFxzuFMxSR0qobWon2DgJKurN4w2f6jQ5JKAeKE/edit?usp=sharing)
+[View Google Slides Presentation](https://docs.google.com/presentation/d/1VGqYOxNk-EMoYRtqRAJrcrpGHPLWjuMUbZlObBw4QhU/edit?usp=sharing)
 
 ---
 
