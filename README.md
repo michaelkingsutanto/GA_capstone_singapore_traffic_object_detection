@@ -38,8 +38,21 @@ Below is the methodology for data collection
 ![alt text](images/notebook/dataCollection.JPG)
 ---
 
+## Data Cleaning
+After reviewing class heatmaps, I found out that some objects are mislabelled.  
+The image is just one of the example, cars are mislabelled as traffic lights green.
+
+![alt text](images/notebook/dataCleaning1.JPG)
+
+Here are the top 6 class heatmaps after cleaning.  
+In this observation, the traffic lights consistently appear at the top of the frame, the traffic cones are always at the bottom, and buses are generally located on the left side, appearing larger than other classes.   
+Models like YOLO often consider the entire scene (contextual understanding), which helps the system differentiate between objects based on their position and size.
+
+![alt text](images/notebook/finalHeatmap.JPG)
+---
+
 ## Dataset
-This is the dataset. It has 2,480 images, 24 classes and 22,482 labels across classes.
+This is the clean dataset. It has 2,540 images, 24 classes and 22,891 labels across classes.
 
 ![alt text](images/notebook/V2_classBalance.png)
 ![alt text](images/notebook/24Classes.JPG)
@@ -60,6 +73,7 @@ Below is the models comparison. Model 5 has the best performance with the highes
 
 ## Demonstration of Pixel Pilot Kit Predictions
 https://youtu.be/_tbwXCWez5k
+
 [![Watch the video](https://img.youtube.com/vi/_tbwXCWez5k/maxresdefault.jpg)](https://youtu.be/_tbwXCWez5k)
 ---
 
