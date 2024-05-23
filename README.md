@@ -45,10 +45,12 @@ The image is just one of the example, cars are mislabelled as traffic lights gre
 ![alt text](images/notebook/dataCleaning1.JPG)
 
 Here are the top 6 class heatmaps after cleaning.  
+
+![alt text](images/notebook/finalHeatmap.JPG)
+
 In this observation, the traffic lights consistently appear at the top of the frame, the traffic cones are always at the bottom, and buses are generally located on the left side, appearing larger than other classes.   
 Models like YOLO often consider the entire scene (contextual understanding), which helps the system differentiate between objects based on their position and size.
 
-![alt text](images/notebook/finalHeatmap.JPG)
 ---
 
 ## Dataset
